@@ -103,8 +103,8 @@ Visualisasi ditampilkan menggunakan Matplotlib dan hasil dapat disimpan ke direk
     ```
 
 > [!WARNING]
-> Library PyTorch (`torch`, `torchvision`) Sebaiknya diinstall sesuai dengan CUDA yang digunakan. Untuk GPU, disarankan mengikuti panduan resmi PyTorch.
-> Beberapa library sebaiknya diinstall satu per satu dengan memperhatikan versi masing-masing library untuk menghindari *dependency hell*.
+> - Library PyTorch (`torch`, `torchvision`) Sebaiknya diinstall sesuai dengan CUDA yang digunakan. Untuk GPU, disarankan mengikuti panduan resmi PyTorch.
+> - Beberapa library sebaiknya diinstall satu per satu dengan memperhatikan versi masing-masing library untuk menghindari *dependency hell*.
 
 - Jalankan `main.py`
     ```bash
@@ -116,8 +116,8 @@ Visualisasi ditampilkan menggunakan Matplotlib dan hasil dapat disimpan ke direk
     ```
 
 > [!NOTE]
-> `main.py` menjalankan inferensi segmentasi banjir pada gambar yang diinput melalui opsi `--image` dengan nilai default `test/image.png`.
-> Contoh output dari program dapat dilihat pada direktori `result`.
+> - `main.py` menjalankan inferensi segmentasi banjir pada gambar yang diinput melalui opsi `--image` dengan nilai default `test/image.png`.
+> - Contoh output dari program dapat dilihat pada direktori `result`.
 
 ---
 
